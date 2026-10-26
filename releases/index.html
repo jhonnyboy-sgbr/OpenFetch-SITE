@@ -7,8 +7,8 @@
   <meta name="description" content="Histórico de versões do OpenFetch e downloads oficiais.">
   <title>Versões — OpenFetch</title>
   <link rel="stylesheet" href="../assets/css/style.css?v=3">
-  <link rel="stylesheet" href="../assets/css/dark-theme.css?v=2">
-  <script src="../assets/js/app.js" defer></script>
+  <link rel="stylesheet" href="../assets/css/dark-theme.css?v=3">
+  <script src="../assets/js/app.js?v=2" defer></script>
 </head>
 <body>
   <header class="site-header">
@@ -26,11 +26,19 @@
       <span class="pill">Versão 0.1.0</span>
       <h2>Primeira versão do OpenFetch</h2>
       <p>Instalador para Windows · 64 bits · 104,9 MiB</p>
-      <p><a class="button primary" href="https://github.com/jhonnyboy-sgbr/OpenFetch-0.1.0/releases/download/v0.1.0/OpenFetch-Setup-0.1.0.exe">Baixar OpenFetch-Setup-0.1.0.exe</a></p>
-      <p class="download-warning"><strong>Aviso:</strong> este instalador não possui assinatura digital. O Windows pode exibir um aviso de editor desconhecido.</p>
-      <p class="download-hash"><strong>SHA-256:</strong> <code>F64486B27987262844505899A40C8A899BDBE6D9F46554889DDF09930EAEE049</code></p>
+      <p><a class="button primary" data-download-trigger href="https://github.com/jhonnyboy-sgbr/OpenFetch-0.1.0/releases/download/v0.1.0/OpenFetch-Setup-0.1.0.exe">Baixar OpenFetch-Setup-0.1.0.exe</a></p>
     </article>
   </main>
+  <dialog class="download-dialog" data-download-dialog aria-labelledby="download-dialog-title">
+    <h2 id="download-dialog-title">Antes de baixar</h2>
+    <p>Este instalador ainda não possui assinatura digital. O Windows pode mostrar um aviso de editor desconhecido.</p>
+    <p class="download-hash"><strong>SHA-256:</strong> <code>F64486B27987262844505899A40C8A899BDBE6D9F46554889DDF09930EAEE049</code></p>
+    <p class="download-countdown">O download começa em <span data-download-countdown role="timer" aria-live="off">10</span> segundos. Ou prossiga agora.</p>
+    <div class="download-dialog-actions">
+      <button class="button secondary" type="button" data-download-cancel>Cancelar</button>
+      <a class="button primary" data-download-confirm href="https://github.com/jhonnyboy-sgbr/OpenFetch-0.1.0/releases/download/v0.1.0/OpenFetch-Setup-0.1.0.exe">OK, prosseguir</a>
+    </div>
+  </dialog>
   <footer class="footer wrap">
     <a class="brand" href="../"><span class="brand-mark">O</span><span>OpenFetch</span></a>
     <span>© OpenFetch</span>
