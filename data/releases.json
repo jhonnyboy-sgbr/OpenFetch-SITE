@@ -1,5 +1,14 @@
 {
-  "status": "not-configured",
-  "message": "Nenhum pacote foi validado para distribuição pelo site ainda.",
-  "releases": []
+  "status": "available",
+  "releases": [
+    {
+      "version": "0.1.0",
+      "platform": "Windows 64 bits",
+      "file": "OpenFetch-Setup-0.1.0.exe",
+      "size_bytes": 110030824,
+      "sha256": "F64486B27987262844505899A40C8A899BDBE6D9F46554889DDF09930EAEE049",
+      "url": "https://github.com/jhonnyboy-sgbr/OpenFetch-0.1.0/releases/download/v0.1.0/OpenFetch-Setup-0.1.0.exe",
+      "signed": false
+    }
+  ]
 }

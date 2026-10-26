@@ -68,6 +68,22 @@
   outline-offset: 3px;
 }
 
+.download-warning {
+  border: 1px solid #70582b;
+  border-radius: 10px;
+  padding: 14px;
+  background: #292316;
+  color: #f0d99e;
+}
+
+.download-hash {
+  overflow-wrap: anywhere;
+}
+
+.download-hash code {
+  color: var(--ink);
+}
+
 @media (max-width: 760px) {
   .menu-toggle,
   .nav {
