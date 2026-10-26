@@ -1,0 +1,77 @@
+:root {
+  color-scheme: dark;
+  --bg: #101116;
+  --surface: #181a22;
+  --ink: #f2f2f6;
+  --muted: #a3a5b2;
+  --line: #30323d;
+  --accent: #a397ff;
+  --accent-dark: #b5adff;
+}
+
+.site-header {
+  background: rgba(16, 17, 22, .94);
+}
+
+.nav {
+  color: var(--muted);
+}
+
+.brand-mark,
+.product-icon {
+  background: var(--accent);
+  color: #171522;
+}
+
+.status-dot {
+  background: #e9b65c;
+}
+
+.primary {
+  color: #171522;
+}
+
+.primary:hover {
+  background: var(--accent-dark);
+}
+
+.secondary,
+.feature,
+.cta {
+  background: var(--surface);
+}
+
+.product-card {
+  box-shadow: 0 24px 80px rgba(0, 0, 0, .28);
+}
+
+.window-bar i {
+  background: #454753;
+}
+
+.window-bar span {
+  color: var(--muted);
+}
+
+.pill,
+.feature-icon {
+  background: #29253f;
+  color: #c1b8ff;
+}
+
+.fake-line {
+  background: #292b35;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (max-width: 760px) {
+  .menu-toggle,
+  .nav {
+    background: var(--surface);
+    color: var(--ink);
+  }
+}
