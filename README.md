@@ -12,7 +12,7 @@ Site estático do OpenFetch, preparado para GitHub Pages.
 
 ## Downloads
 
-Os botões de download não devem apontar para pacotes até que os arquivos oficiais tenham sido publicados e verificados. Não invente URLs, versões, tamanhos ou hashes.
+O instalador do OpenFetch 0.1.0 para Windows x64 está disponível como anexo da [GitHub Release](https://github.com/jhonnyboy-sgbr/OpenFetch-0.1.0/releases/tag/v0.1.0). Ele não possui assinatura digital; a página de downloads avisa que o Windows pode mostrar um alerta de editor desconhecido e informa o SHA-256 do arquivo. Publique novas versões somente após conferir o pacote, o tamanho, o hash e o link da release.
 
 ## Manutenção
 
